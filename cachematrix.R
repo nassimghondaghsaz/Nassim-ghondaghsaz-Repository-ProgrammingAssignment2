@@ -1,3 +1,4 @@
+## Put comments here that give an overall description of what your
 ## The functions are used to create a special object that stores a matrix and caches its inverse
 
 ##the following function has four functions to set the inverse of a matrix
@@ -20,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ##this function checks if the inverse has been calculated before, 
-##it will give the inverse matrix from cached data.
+##it will give the inverse matrix from cached data
 
 cacheSolve <- function(x, ...) {
   z <- x$getinverse()          
